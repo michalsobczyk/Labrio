@@ -1,0 +1,12 @@
+<mat-toolbar color="primary">
+  <button mat-icon-button (click)="snav.toggle()">
+    <mat-icon>menu</mat-icon></button>
+    <button mat-button routerLink="">Labrio</button>
+    <div class="btn-toolbar"></div> <!--Dunno why, but mat-toolbar doesnt allow to place its content on the right side, so we use a class to fill the place on the left side-->
+    <button routerLink="login" class="button" mat-raised-button>
+      <mat-icon>login</mat-icon>Zaloguj
+    </button>
+    <button routerLink="registration" class="button" mat-raised-button>
+      <mat-icon>person_add_alt_1</mat-icon>Zarejestruj
+    </button>
+</mat-toolbar>

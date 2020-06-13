@@ -1,0 +1,16 @@
+.mat-toolbar {
+  background-color: dodgerblue;
+}
+
+.button {
+  margin: 5px;
+  float:right;
+}
+
+.btn-toolbar {
+    flex: 1 1 auto;
+}
+
+.mat-icon{
+    margin: 3px;
+ }

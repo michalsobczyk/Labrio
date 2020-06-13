@@ -1,0 +1,13 @@
+.test {
+  width: 30%;
+  padding-top: 300px;
+  margin: 0 auto;
+}
+
+
+.test--button {
+    margin: 20px;
+    color:white;
+    background-color: dodgerblue;
+    width: 80%;
+}

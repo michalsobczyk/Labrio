@@ -1,0 +1,19 @@
+.test {
+  width: 30%;
+  padding-top: 300px;
+  margin: 0 auto;
+}
+
+
+.formField {
+    width: 80%;
+}
+
+.zarejestruj {
+    background-color:dodgerblue;
+    width:80%;
+}
+
+.text {
+  display: block;
+}

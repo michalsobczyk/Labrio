@@ -1,0 +1,26 @@
+.header {
+  background-color: darkblue;
+  color: white;
+  padding: 15px 0px 1px 0px;
+  text-align: center;
+}
+
+.text {
+    margin: 10px;
+    color: darkblue;
+    text-align: center;
+}
+
+.table {
+    width: 100%;
+    color: darkblue;
+    border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+.rows {
+    text-align: center;
+}

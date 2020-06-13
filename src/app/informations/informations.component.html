@@ -1,0 +1,18 @@
+<div class="header"><h3>KALENDARZ BADAŃ PROFILAKTYCZNYCH</h3></div>
+<div class="text">
+  <strong>Każdy z nas powinien pamiętać o badaniach profilaktycznych przeznaczonych dla swojej grupy wiekowej. Dzięki nim bowiem można często wykryć niedającą jeszcze żadnych objawów chorobę, co daje możliwość skutecznego jej leczenia.</strong>
+</div>
+<div class="text">
+  <strong>Badania należy wykonywać regularnie, nawet jeśli dopisuje nam dobre samopoczucie. Wiele chorób przebiega bowiem bezobjawowo, a zdiagnozowanie ich zbyt późno, zmniejsza skuteczność leczenia. Badania profilaktyczne należy więc wykonywać w każdym wieku.</strong>
+</div>
+
+<table class="table" mat-table>
+  <tr>
+    <th>Badanie</th>
+    <th>Częstotliwość</th>
+  </tr>
+  <tr *ngFor="let element of elements">
+    <td class="rows">{{element.nazwa}}</td>
+    <td class="rows">{{element.czestotliwosc}}</td>
+  </tr>
+</table>
